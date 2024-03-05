@@ -13,5 +13,5 @@ configViewEngine(app);
 initWebRoute(app);
 
 app.listen(PORT, () => {
-    console.log(`>>> Web is running on the port: localhost:${PORT}`);
+    console.log(`>>> Web is running on the port:${PORT}`);
 })
